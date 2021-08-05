@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    border: 10px solid #2b81ac;
+}
+
+.main {
+    background-color: #3399cc;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.weather-title {
+    color: white;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.weather-city {
+    color: white;
+}
+
+.weather-list {
+    font-size: 0;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.weather-item:hover {
+    opacity: 1;
+}
+
+.weather-item {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+    opacity: 0.5;
+    transition: all 0.3s linear;
+}
+
+.blue {
+    background-color: #3399cc;
+}
+
+.turquoise {
+    background-color: #33cccc;
+}
+
+.violet {
+    background-color: #996699;
+}
+
+.red {
+    background-color: #c24747;
+}
+
+.light-red {
+    background-color: #e2674a;
+}
+
+.yellow {
+    background-color: #ffcc66;
+}
+
+.light-green {
+    background-color: #99cc99;
+}
+
+.grey {
+    background-color: #669999;
+}
+
+.pink {
+    background-color: #cc6699;
+}
+
+.green {
+    background-color: #339966;
+}
+
+.dark-violet {
+    background-color: #666699;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.wi {
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.weather-temperature {
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.weather-bottom {
+    color: white;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.weather-temperature {
+    display: inline-block;
+    margin-top: 10px;
+}

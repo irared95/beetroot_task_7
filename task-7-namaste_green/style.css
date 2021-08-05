@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.namaste-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 86px 0px 100px;
+    margin: 0 auto;
+}
+
+.namaster-top {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.namaste-desc {
+    display: inline-block;
+    color: rgb(137, 143, 153);
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.namaste-title {
+    margin-bottom: 30px;
+    color: rgb(14, 200, 203);
+    font-family: sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.namaste-text {
+    display: inline-block;
+    width: 100%;
+    max-width: 550px;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0 auto;
+}
+
+.namaste-item {
+    padding: 54px 30px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 24.5%;
+    transition: all 0.3s linear;
+}
+
+.namaste-img {
+    margin-bottom: 50px;
+}
+
+.namaste-item-title {
+    font-weight: 700;
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+    min-height: 48px;
+    transition: all 0.3s linear;
+}
+
+.namaste-item-holder {
+    color: rgb(119, 119, 119);
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    transition: all 0.3s linear;
+}
+
+.namaste-img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 28px;
+    transition: all 0.3s linear;
+}
+
+.namaste-img-anchor {
+    background-image: url(./img/Anchor-black.png);
+}
+
+.namaste-item:hover .namaste-img-anchor {
+    background-image: url(./img/Anchor-pink.png);
+}
+
+.namaste-img-diamond {
+    background-image: url(./img/Diamond-black.png);
+}
+
+.namaste-item:hover .namaste-img-diamond {
+    background-image: url(./img/Diamond-pink.png);
+}
+
+.namaste-img-eyeglasses {
+    background-image: url(./img/Eyeglasses-black.png);
+}
+
+.namaste-item:hover .namaste-img-eyeglasses {
+    background-image: url(./img/Eyeglasses-pink.png);
+}
+
+.namaste-img-monitor {
+    background-image: url(./img/Monitor-black.png);
+}
+
+.namaste-item:hover .namaste-img-monitor {
+    background-image: url(./img/Monitor-pink.png);
+}
+
+.namaste-item:hover {
+    background-color: #0ec8cb;
+}
+
+.namaste-item:hover .namaste-item-title {
+    color: #fff;
+}
+
+.namaste-item:hover .namaste-item-holder {
+    color: #fff;
+}
